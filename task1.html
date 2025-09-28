@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Таблица ломбарда</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    td {
+      border: 2px solid red;
+      padding: 10px;
+    }
+
+    
+    td:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    
+    .left {
+      width: 25%;
+    }
+
+   
+    .right {
+      width: 75%;
+      object-fit: cover;
+    }
+    .img-cell {
+    height: 200px;
+  }
+  .img-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+    
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+
+      <td class="left" rowspan="2">
+        <p><strong>Ювелирные изделия</strong><br>
+        Золото, серебро, платина. Быстрая оценка и моментальная выплата.</p>
+
+        <p><strong>Электроника</strong><br>
+        Смартфоны, ноутбуки, планшеты. Исправное состояние и зарядка.</p>
+
+        <p><strong>Авто и мототехника</strong><br>
+        Деньги в день обращения. Страхование и охрана.</p>
+      </td>
+
+
+      <td class="right img-cell"><img src="https://kpfu.ru/portal/docs/F_1207417229/Lombard_e1585151532337.jpg" alt=""></td>
+      <td class="right"><strong>До 95% от стоимости</strong><br>Оценка по рыночной цене — без занижений.</td>
+      <td class="right"><strong>Без справок и поручителей</strong><br>Только паспорт — никаких лишних бумаг.</td>
+    </tr>
+    <tr>
+
+      <td class="right"><strong>Гибкие сроки</strong><br>От 1 дня до 3 месяцев. Возможность продления.</td>
+      <td class="right"><strong>Безопасное хранение</strong><br>Все предметы застрахованы и под охраной.</td>
+      <td class="right"><strong>Прозрачные условия</strong><br>Без скрытых комиссий. Всё по договору.</td>
+    </tr>
+  </table>
+
+</body>
+</html>
